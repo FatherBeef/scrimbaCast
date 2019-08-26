@@ -6,9 +6,28 @@
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link href="assets/styles.css" rel="stylesheet" />
 </head>
+<header class="navbar fixed-top navbar-dark bg-primary">
+  <nav class="container">
+      <div>
+        <span class="navbar-brand">Angular Core Concepts</span>
+      </div>
+  </nav>
+</header>
 <body>
-  <app-root></app-root>
+
+
+<main class="container">
+  <app-root>
+      Loading...
+  </app-root>
+  <br /><br />
+</main>
+
+<script src="polyfills.pack.js"></script>
+<script src="main.pack.js"></script>
+
 </body>
 </html>
